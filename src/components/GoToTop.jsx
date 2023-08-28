@@ -2,7 +2,7 @@ import React from "react";
 
 function GoToTop() {
   return (
-    <div className='p-2 border-b border-gray-300 flex justify-end'>
+    <div className='p-2 mb-16 border-b border-gray-300 flex justify-end'>
       <a
         title='Go to Start'
         href='#top'

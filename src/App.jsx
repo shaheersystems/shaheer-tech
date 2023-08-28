@@ -6,9 +6,8 @@ import HeroSection from "./components/HeroSection";
 import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import GoToTop from "./components/GoToTop";
+import Education from "./components/Education";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className='App'>
       <a id='top'></a>
@@ -16,6 +15,8 @@ function App() {
         <HeroSection />
         <Nav />
         <Projects />
+        <GoToTop />
+        <Education />
         <GoToTop />
       </Wrap>
     </div>

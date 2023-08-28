@@ -41,7 +41,7 @@ function Nav() {
         </svg>
         <span className='ml-2'>Now</span>
       </a>
-      <a href='#' className='flex items-center hover:underline'>
+      <a href='#education' className='flex items-center hover:underline'>
         <svg
           width='18'
           height='18'

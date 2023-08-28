@@ -1,7 +1,6 @@
 import React from "react";
 
 function HeroSection() {
-  
   return (
     <div className='flex flex-col gap-6 font-mono'>
       <h1 className='font-sans text-6xl font-black italic'>M. Shaheer</h1>
@@ -47,13 +46,13 @@ function HeroSection() {
               fill='black'
             />
           </svg>
-          <span className='font-mono'>Lahore, Pakistan</span>
+          <span className='font-mono text-xs'>Lahore, Pakistan</span>
         </div>
         <div className='flex items-center gap-2'>
           <div className='p-1 bg-green-500/10 rounded-full'>
             <div className='p-1 rounded-full bg-green-500'></div>
           </div>
-          <span>Available for work</span>
+          <span className='text-xs'>Available for work</span>
         </div>
       </div>
     </div>
