@@ -1,5 +1,4 @@
 import React from "react";
-import Vscode from "../icons/vscode";
 function Stack({ icon, link, name }) {
   return (
     <div className='group relative p-2 cursor-pointer rounded hover:bg-gray-200 flex items-center gap-2'>
