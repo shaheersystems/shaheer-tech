@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Projects from "./components/Projects";
 import GoToTop from "./components/GoToTop";
 import Education from "./components/Education";
+import Stacks from "./components/Stacks";
 function App() {
   return (
     <div className='App'>
@@ -17,6 +18,8 @@ function App() {
         <Projects />
         <GoToTop />
         <Education />
+        <GoToTop />
+        <Stacks />
         <GoToTop />
       </Wrap>
     </div>

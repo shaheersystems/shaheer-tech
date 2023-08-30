@@ -3,7 +3,9 @@ import React from "react";
 function HeroSection() {
   return (
     <div className='flex flex-col gap-6 font-mono'>
-      <h1 className='font-sans text-6xl font-black italic'>M. Shaheer</h1>
+      <h1 className='font-sans text-3xl md:text-4xl lg:text-5xl font-black italic'>
+        M. Shaheer
+      </h1>
       <span className='font-mono'>
         Passionate Software Engineer & Freelancer
       </span>

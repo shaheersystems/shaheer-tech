@@ -59,8 +59,8 @@ function Projects() {
     <div id='projects'>
       <div className='font-sans italic text-3xl font-black'>Projects</div>
       <div className='py-6 flex flex-col gap-2'>
-        {projects.map((project) => {
-          return <Project {...project} />;
+        {projects.map((project, idx) => {
+          return <Project key={idx} {...project} />;
         })}
       </div>
     </div>
