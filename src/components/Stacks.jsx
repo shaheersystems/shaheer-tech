@@ -9,7 +9,7 @@ import Flask from "../icons/Flask";
 import Github from "../icons/Github";
 import Notion from "../icons/Notion";
 import Udemy from "../icons/Udemy";
-import Next from "../icons/next";
+import Next from "../icons/Next";
 import Radix from "../icons/Radix";
 import Vercel from "../icons/Vercel";
 import ChatGPT from "../icons/ChatGPT";
