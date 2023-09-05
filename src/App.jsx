@@ -8,10 +8,11 @@ import Projects from "./components/Projects";
 import GoToTop from "./components/GoToTop";
 import Education from "./components/Education";
 import Stacks from "./components/Stacks";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <div className='App'>
-      <a id='top'></a>
+    <div className="App">
+      <a id="top"></a>
       <Wrap>
         <HeroSection />
         <Nav />
@@ -21,6 +22,7 @@ function App() {
         <GoToTop />
         <Stacks />
         <GoToTop />
+        <Footer />
       </Wrap>
     </div>
   );

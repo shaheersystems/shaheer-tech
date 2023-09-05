@@ -13,6 +13,9 @@ import Next from "../icons/Next";
 import Radix from "../icons/Radix";
 import Vercel from "../icons/Vercel";
 import ChatGPT from "../icons/ChatGPT";
+import MongoDB from "../icons/MongoDB";
+import MySQL from "../icons/MySQL";
+
 function Stacks() {
   const stacks = [
     {
@@ -80,11 +83,21 @@ function Stacks() {
       link: "https://chat.openai.com/",
       icon: <ChatGPT />,
     },
+    {
+      name: "MongoDB",
+      link: "https://www.mongodb.com/",
+      icon: <MongoDB />,
+    },
+    {
+      name: "MySQL",
+      link: "https://www.mysql.com/",
+      icon: <MySQL />,
+    },
   ];
   return (
-    <div id='projects'>
-      <div className='font-sans italic text-3xl font-black'>Stack</div>
-      <div className='py-6 flex gap-2 flex-wrap'>
+    <div id="projects">
+      <div className="font-sans text-3xl italic font-black">Stack</div>
+      <div className="flex flex-wrap gap-2 py-6">
         {stacks.map((stack, idx) => {
           return (
             <Stack
