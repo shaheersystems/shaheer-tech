@@ -19,6 +19,13 @@ function Projects() {
       link: "https://worklytics-board.vercel.app/",
     },
     {
+      id: 7,
+      title: "TechCrunch Clone",
+      year: "2023",
+      description: "An instant techcrunch clone with markets.sh news api.",
+      link: "https://techcrunch-three.vercel.app/",
+    },
+    {
       id: 3,
       title: "Transfer List component",
       year: "2022",
@@ -47,18 +54,11 @@ function Projects() {
       description: "Custom mutli-select component in react.",
       link: "https://react-multi-select-indol.vercel.app/",
     },
-    {
-      id: 7,
-      title: "React select component",
-      year: "2023",
-      description: "Custom select component in react.",
-      link: "https://react-select-bice.vercel.app/",
-    },
   ];
   return (
-    <div id='projects'>
-      <div className='font-sans italic text-3xl font-black'>Projects</div>
-      <div className='py-6 flex flex-col gap-2'>
+    <div id="projects">
+      <div className="font-sans text-3xl italic font-black">Projects</div>
+      <div className="flex flex-col gap-2 py-6">
         {projects.map((project, idx) => {
           return <Project key={idx} {...project} />;
         })}
