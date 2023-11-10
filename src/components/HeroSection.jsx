@@ -10,9 +10,9 @@ function HeroSection() {
         Passionate Software Engineer & Freelancer
       </span>
       <p className="font-mono">
-        I'm a software engineer specializing in building (and occasionally
-        designing) exceptional websites, applications, and everything in
-        between.
+        🚀 Code maestro sculpting digital dreams with elegance and precision.
+        From pixels to algorithms, I turn ideas into seamless realities. Let's
+        redefine the future, one line of code at a time. 💻✨
       </p>
       <div className="flex items-center gap-16">
         <div className="flex items-center gap-2">
