@@ -7,6 +7,7 @@ import GoToTop from "./components/GoToTop";
 import Education from "./components/Education";
 import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
+import Socials from "./components/Socials";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,8 @@ function App() {
         <Education />
         <GoToTop />
         <Stacks />
+        <GoToTop />
+        <Socials />
         <GoToTop />
         <Footer />
       </Wrap>

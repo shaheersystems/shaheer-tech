@@ -15,6 +15,8 @@ import Vercel from "../icons/Vercel";
 import ChatGPT from "../icons/ChatGPT";
 import MongoDB from "../icons/MongoDB";
 import MySQL from "../icons/MySQL";
+import NodeIcon from "../icons/Node";
+import Copilot from "../icons/Copilot";
 
 function Stacks() {
   const stacks = [
@@ -93,10 +95,20 @@ function Stacks() {
       link: "https://www.mysql.com/",
       icon: <MySQL />,
     },
+    {
+      name: "NodeJs",
+      link: "https://nodejs.org/en",
+      icon: <NodeIcon />,
+    },
+    {
+      name: "Github Copilot",
+      link: "https://copilot.github.com/",
+      icon: <Copilot />,
+    },
   ];
   return (
     <div id="stack">
-      <div className="font-sans text-3xl italic font-black">Stack</div>
+      <div className="font-sans text-3xl italic font-black">Stack & Tools</div>
       <div className="flex flex-wrap gap-2 py-6">
         {stacks.map((stack, idx) => {
           return (
