@@ -143,7 +143,7 @@ function Socials() {
           </span>
         </a>
         <a
-          href="https://www.linkedin.com/in/shaheercodes/"
+          href="https://twitter.com/haloo_shaheer"
           className="flex items-center gap-2 px-4 py-2 rounded-lg hover:bg-gray-200"
         >
           <svg
