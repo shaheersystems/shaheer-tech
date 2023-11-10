@@ -48,13 +48,16 @@ function HeroSection() {
               fill="black"
             />
           </svg>
-          <span className="font-mono text-xs">Lahore, Pakistan</span>
+          <span className="font-mono text-xs md:text-sm">Lahore, Pakistan</span>
         </div>
-        <div className="flex items-center gap-2">
-          <div className="p-1 rounded-full bg-green-500/10">
-            <div className="p-1 bg-green-500 rounded-full"></div>
-          </div>
-          <span className="text-xs">Available for work</span>
+        <div className="flex items-center gap-3">
+          <span class="relative flex h-2 w-2">
+            <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-300 opacity-75"></span>
+            <span class="relative inline-flex h-2 w-2 rounded-full bg-green-400"></span>
+          </span>
+          <span className="font-mono text-xs md:text-sm">
+            Available for work
+          </span>
         </div>
       </div>
     </div>
