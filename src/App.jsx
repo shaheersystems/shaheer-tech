@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
 import Socials from "./components/Socials";
+import MobileNav from "./components/MobileNav";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Wrap>
         <HeroSection />
         <Nav />
+        <br className="block sm:hidden" />
         <Projects />
         <GoToTop />
         <Education />
@@ -24,6 +26,7 @@ function App() {
         <Socials />
         <GoToTop />
         <Footer />
+        <MobileNav />
       </Wrap>
     </div>
   );

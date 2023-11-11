@@ -3,8 +3,11 @@ import React from "react";
 function HeroSection() {
   return (
     <div className="flex flex-col gap-6 font-mono">
-      <h1 className="font-sans text-3xl italic font-black md:text-4xl lg:text-5xl">
-        M. Shaheer
+      <h1 className="font-sans text-3xl font-black sm:italic md:text-4xl lg:text-5xl">
+        Hi, I'm{" "}
+        <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
+          M. Shaheer
+        </span>
       </h1>
       <span className="font-mono">
         Passionate Software Engineer & Freelancer
@@ -14,6 +17,28 @@ function HeroSection() {
         From pixels to algorithms, I turn ideas into seamless realities. Let's
         redefine the future, one line of code at a time. 💻✨
       </p>
+      <div className="flex items-center gap-4">
+        <button className="flex items-center gap-2 px-4 py-2 text-sm rounded-md hover:bg-gray-200">
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 36 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="animate-bounce"
+          >
+            <path
+              d="M18 28.5C16.7953 28.5 15.7412 28.0419 14.9882 27.1257L6.70588 17.0479C5.95294 16.1317 5.80235 14.7575 6.25412 13.6886C6.70588 12.6198 7.76 11.8563 8.96471 11.8563H12.4282V6.51198C12.4282 4.52695 14.0847 3 16.0424 3H20.1082C22.0659 3 23.5718 4.52695 23.5718 6.51198V11.8563H27.0353C28.24 11.8563 29.2941 12.4671 29.7459 13.6886C30.1976 14.7575 30.0471 15.979 29.2941 16.8952L21.0118 27.1257C20.2588 28.0419 19.2047 28.5 18 28.5ZM8.96471 15.0629L17.2471 25.1407C17.5482 25.4461 17.8494 25.4461 18 25.4461C18.1506 25.4461 18.4518 25.4461 18.7529 25.1407L27.0353 15.0629H22.0659C21.1624 15.0629 20.56 14.4521 20.56 13.5359V6.51198C20.56 6.20659 20.2588 6.05389 20.1082 6.05389H16.0424C15.7412 6.05389 15.44 6.35928 15.44 6.51198V13.3832C15.44 14.2994 14.8376 14.9102 13.9341 14.9102H8.96471V15.0629Z"
+              fill="black"
+            />
+            <path
+              d="M27.6269 33H8.22388C5.23881 33 3 30.75 3 27.75V24C3 23.1 3.59701 22.5 4.49254 22.5C5.38806 22.5 5.98507 23.1 5.98507 24V27.75C5.98507 28.95 7.02985 30 8.22388 30H27.7761C28.9701 30 30.0149 28.95 30.0149 27.75V24C30.0149 23.1 30.6119 22.5 31.5075 22.5C32.403 22.5 33 23.1 33 24V27.75C32.8507 30.75 30.6119 33 27.6269 33Z"
+              fill="black"
+            />
+          </svg>
+          Download Resume
+        </button>
+      </div>
       <div className="flex items-center gap-16">
         <div className="flex items-center gap-2">
           <svg

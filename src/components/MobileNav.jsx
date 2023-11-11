@@ -1,12 +1,13 @@
 import React from "react";
 
-function Nav() {
+function MobileNav() {
   return (
-    <nav className="flex-col hidden gap-3 py-10 font-mono sm:flex">
-      <a href="#projects" className="flex items-center hover:underline">
+    <nav className="fixed sm:hidden flex items-center gap-4 p-1 text-center text-white transform -translate-x-1/2 bg-gray-200 border border-gray-400 rounded-full shadow-[0_8px_30px_rgb(0,0,0,0.12)] bottom-4 left-1/2">
+      {/* Your navigation items go here */}
+      <a href="#projects" className="p-2 rounded-full hover:bg-gray-300">
         <svg
-          width="18"
-          height="18"
+          width="22"
+          height="22"
           viewBox="0 0 36 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -24,12 +25,11 @@ function Nav() {
             fill="black"
           />
         </svg>
-        <span className="ml-2">Projects</span>
       </a>
-      <a href="#education" className="flex items-center hover:underline">
+      <a href="#education" className="p-2 rounded-full hover:bg-gray-300">
         <svg
-          width="18"
-          height="18"
+          width="22"
+          height="22"
           viewBox="0 0 36 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -39,12 +39,11 @@ function Nav() {
             fill="black"
           />
         </svg>
-        <span className="ml-2">Education</span>
       </a>
-      <a href="#stack" className="flex items-center hover:underline">
+      <a href="#stack" className="p-2 rounded-full hover:bg-gray-300">
         <svg
-          width="18"
-          height="18"
+          width="22"
+          height="22"
           viewBox="0 0 36 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -62,12 +61,11 @@ function Nav() {
             fill="black"
           />
         </svg>
-        <span className="ml-2">Stack</span>
       </a>
-      <a href="#socials" className="flex items-center hover:underline">
+      <a href="#socials" className="p-2 rounded-full hover:bg-gray-300">
         <svg
-          width="18"
-          height="18"
+          width="22"
+          height="22"
           viewBox="0 0 36 36"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -77,10 +75,9 @@ function Nav() {
             fill="black"
           />
         </svg>
-        <span className="ml-2">Contact</span>
       </a>
     </nav>
   );
 }
 
-export default Nav;
+export default MobileNav;
