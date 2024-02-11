@@ -9,6 +9,7 @@ import Stacks from "./components/Stacks";
 import Footer from "./components/Footer";
 import Socials from "./components/Socials";
 import MobileNav from "./components/MobileNav";
+import DevCards from "./components/DevCards";
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,8 @@ function App() {
         <Stacks />
         <GoToTop />
         <Socials />
+        <GoToTop />
+        <DevCards />
         <GoToTop />
         <Footer />
         <MobileNav />
