@@ -1,6 +1,6 @@
 import React from "react";
 
-function DevCards({ children }) {
+function DevCards() {
   return (
     <div>
       <div className="py-4 font-sans text-3xl italic font-black">

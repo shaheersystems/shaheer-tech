@@ -1,5 +1,5 @@
 import React from "react";
-
+import resume from "../assets/shaheer-resume.pdf";
 function HeroSection() {
   return (
     <div className="flex flex-col gap-6 font-mono">
@@ -18,7 +18,11 @@ function HeroSection() {
         redefine the future, one line of code at a time. 💻✨
       </p>
       <div className="flex items-center gap-4">
-        <button className="flex items-center gap-2 px-4 py-2 text-sm rounded-md hover:bg-gray-200">
+        <a
+          download={true}
+          href={resume}
+          className="flex items-center gap-2 px-4 py-2 text-sm rounded-md hover:bg-gray-200"
+        >
           <svg
             width="18"
             height="18"
@@ -37,7 +41,7 @@ function HeroSection() {
             />
           </svg>
           Download Resume
-        </button>
+        </a>
       </div>
       <div className="flex items-center gap-16">
         <div className="flex items-center gap-2">
