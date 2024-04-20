@@ -3,6 +3,14 @@ import Project from "./Project";
 function Projects() {
   const projects = [
     {
+      id: 0,
+      title: "Deversity",
+      year: "2024-present",
+      description:
+        "Deversity is an ed-tech platform that helps educational creators and students to connect and learn. It is built using React, NodeJS (express), and PostgreSQL (Prisma ORM).",
+      link: "https://deversity.vercel.app/",
+    },
+    {
       id: 1,
       title: "Quran Cloud",
       year: "2022",
@@ -20,10 +28,11 @@ function Projects() {
     },
     {
       id: 7,
-      title: "TechCrunch Clone",
-      year: "2023",
-      description: "An instant techcrunch clone with markets.sh news api.",
-      link: "https://techcrunch-three.vercel.app/",
+      title: "Snippy",
+      year: "2024",
+      description:
+        "A code snippet manager built using React and NodeJS (Express) and SQLite (Prisma ORM).",
+      link: "https://snippy-blond.vercel.app",
     },
     {
       id: 3,
@@ -38,14 +47,6 @@ function Projects() {
       year: "2023",
       description: "Tick Tack Toe game with react",
       link: "https://tick-tack-toe-six.vercel.app/",
-    },
-    {
-      id: 5,
-      title: "Drag'n'Drop",
-      year: "2023",
-      description:
-        "Drag and Drop Component in react using React beautiful drag and drop",
-      link: "https://dragndrop-cyan.vercel.app/",
     },
     {
       id: 6,

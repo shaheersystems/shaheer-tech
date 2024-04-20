@@ -12,6 +12,12 @@ function HeroSection() {
       <span className="font-mono">
         Passionate Software Engineer & Freelancer
       </span>
+      <div className="">
+        <img
+          src="https://wakatime.com/badge/user/b4765517-ceef-4698-b02b-fc23c33e2839.svg"
+          alt="Wakatime stats"
+        />
+      </div>
       <p className="font-mono">
         🚀 Code maestro sculpting digital dreams with elegance and precision.
         From pixels to algorithms, I turn ideas into seamless realities. Let's

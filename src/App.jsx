@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 import Socials from "./components/Socials";
 import MobileNav from "./components/MobileNav";
 import DevCards from "./components/DevCards";
+import { Analytics } from "@vercel/analytics/react";
 function App() {
   return (
     <div className="App">
@@ -31,6 +32,7 @@ function App() {
         <Footer />
         <MobileNav />
       </Wrap>
+      <Analytics />
     </div>
   );
 }
