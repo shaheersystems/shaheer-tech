@@ -7,6 +7,9 @@ export default {
         sans: ["Inter", "sans-serif"],
         mono: ["DM mono", "monospace"],
       },
+      colors: {
+        primary: "#3139fb",
+      },
     },
   },
   plugins: [],

@@ -2,17 +2,17 @@ import React from "react";
 
 function Education() {
   return (
-    <div id='education'>
-      <div className='font-sans italic text-3xl font-black py-6'>Education</div>
-      <div className='project flex flex-col gap-4 font-mono p-4 cursor-pointer rounded-lg'>
-        <div className='flex flex-col gap-2'>
-          <div className='flex items-center gap-2 font-sans font-bold text-xl'>
+    <div id="education">
+      <div className="py-6 font-sans text-3xl italic font-black">Education</div>
+      <div className="flex flex-col gap-4 p-4 font-mono rounded-lg cursor-pointer project">
+        <div className="flex flex-col gap-2">
+          <div className="flex items-center gap-2 font-sans text-xl font-bold">
             <h1>PUCIT, Old Campus</h1>
-            <span className='font-mono font-medium px-2 py-1 text-xs rounded bg-neutral-300'>
+            <span className="px-2 py-1 font-mono text-xs font-medium rounded bg-neutral-300">
               2020-Present
             </span>
           </div>
-          <div className='text-lg'>B.S. Information Technology</div>
+          <div className="text-lg">B.S. Information Technology</div>
         </div>
       </div>
     </div>

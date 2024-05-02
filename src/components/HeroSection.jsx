@@ -12,7 +12,7 @@ function HeroSection() {
       <span className="font-mono">
         Passionate Software Engineer & Freelancer
       </span>
-      <div className="flex items-center gap-4">
+      <div className="flex flex-wrap items-center gap-4">
         <h2 className="font-mono">Total Hours Coded (In record): </h2>
         <img
           src="https://wakatime.com/badge/user/b4765517-ceef-4698-b02b-fc23c33e2839.svg"
